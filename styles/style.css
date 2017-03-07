@@ -5,16 +5,7 @@ Date: 5-MAR-2017
 Filename: index.html
 */
 
-/* background-repeat: repeat-x;
-
-.background {
-    background: url("../images/location.jpg");
-    background-repeat: repeat-y;
-    overflow: auto;
-} */
-
-/* body section */
-
+/* page fonts/background image */
 #home {
     background: url("../images/location.jpg") no-repeat center;
     background-size: cover;
@@ -41,24 +32,26 @@ figure {
 figcaption {
     text-align: center;
     font-weight: bold;
-    margin-top: .5em;
+    margin-top: 1em;
 }
 
-img {
-    border: 8px solid rgba(247,255,255, 0.4);
+img.mainimage {
+    border: 8px solid rgba(0,0,0, 0);
+    border-radius: 25px;
     max-width: none;
     box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.50);
 }
 
-/* articles/content sections */
+/* content sections */
 .info {
     max-width: 800px;
     margin: 4em auto;
 }
 
-article p {
+p.content {
     line-height: 175%;
     font-weight: bold;
+    background-color: rgba(255,255,255,0.3);
 }
 
 /* tables section */
@@ -70,6 +63,13 @@ table, td {
 
 td {
     padding: 5px;
+}
+
+img.planetzoom {
+    width: 175px;
+    height: 175px;
+    margin: 2em auto;
+    display: block;
 }
 
 /* links section */
@@ -86,7 +86,7 @@ a {
 }
 
 a:hover {
-    font-size: 1.25em;
+    font-size: 1.3em;
 }
 
 a:visited {
