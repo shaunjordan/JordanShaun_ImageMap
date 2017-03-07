@@ -41,11 +41,13 @@ figure {
 figcaption {
     text-align: center;
     font-weight: bold;
+    margin-top: .5em;
 }
 
 img {
-    border: 10px solid rgba(0,0,0, 0.9);
+    border: 8px solid rgba(247,255,255, 0.4);
     max-width: none;
+    box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.50);
 }
 
 /* articles/content sections */
