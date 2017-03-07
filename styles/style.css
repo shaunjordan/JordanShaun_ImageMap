@@ -5,6 +5,11 @@ Date: 5-MAR-2017
 Filename: index.html
 */
 
+body {
+    background: url("images/background.jpg") repeat;
+    overflow: auto;
+}
+
 h1 {
     text-align: center;
     font-family: Ubuntu, Arial, sans-serif;
